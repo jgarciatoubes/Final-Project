@@ -1,0 +1,16 @@
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\bin\Debug\netcoreapp2.2\API_ProyectoPracticas.deps.json
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\bin\Debug\netcoreapp2.2\API_ProyectoPracticas.runtimeconfig.json
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\bin\Debug\netcoreapp2.2\API_ProyectoPracticas.runtimeconfig.dev.json
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\bin\Debug\netcoreapp2.2\API_ProyectoPracticas.dll
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\bin\Debug\netcoreapp2.2\API_ProyectoPracticas.pdb
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\obj\Debug\netcoreapp2.2\API_ProyectoPracticas.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\obj\Debug\netcoreapp2.2\API_ProyectoPracticas.RazorAssemblyInfo.cache
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\obj\Debug\netcoreapp2.2\API_ProyectoPracticas.RazorAssemblyInfo.cs
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\obj\Debug\netcoreapp2.2\API_ProyectoPracticas.AssemblyInfoInputs.cache
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\obj\Debug\netcoreapp2.2\API_ProyectoPracticas.AssemblyInfo.cs
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\obj\Debug\netcoreapp2.2\API_ProyectoPracticas.RazorTargetAssemblyInfo.cache
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\obj\Debug\netcoreapp2.2\API_ProyectoPracticas.dll
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\obj\Debug\netcoreapp2.2\API_ProyectoPracticas.pdb
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\obj\Debug\netcoreapp2.2\API_ProyectoPracticas.csprojAssemblyReference.cache
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\bin\Debug\netcoreapp2.2\API_ProyectoPracticas.xml
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas\obj\Debug\netcoreapp2.2\API_ProyectoPracticas.xml

@@ -1,0 +1,11 @@
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.deps.json
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.runtimeconfig.json
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.runtimeconfig.dev.json
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.dll
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.pdb
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\TestAPI\obj\Debug\netcoreapp2.2\TestAPI.csprojAssemblyReference.cache
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\TestAPI\obj\Debug\netcoreapp2.2\TestAPI.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\TestAPI\obj\Debug\netcoreapp2.2\TestAPI.AssemblyInfoInputs.cache
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\TestAPI\obj\Debug\netcoreapp2.2\TestAPI.AssemblyInfo.cs
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\TestAPI\obj\Debug\netcoreapp2.2\TestAPI.dll
+C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\TestAPI\obj\Debug\netcoreapp2.2\TestAPI.pdb

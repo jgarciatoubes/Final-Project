@@ -1,0 +1,85 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Jorge\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/2.0 GET https://localhost:44328/index.html  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 181.3758ms 200 text/html
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/2.0 GET https://localhost:44328/swagger/v1/swagger.json  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 130.2282ms 200 application/json;charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Alumnos/Alumno/ApeAlum  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetConNombreApellidos", controller = "Alumnos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetConNombreApellidos(System.String, System.String) on controller API_ProyectoPracticas.Controllers.AlumnosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1171.8011ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[API_ProyectoPracticas.Models.Alumnos, API_ProyectoPracticas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) in 2299.1099ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2391.9186ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Alumnos/Alumno/ApeAlum  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetConNombreApellidos", controller = "Alumnos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetConNombreApellidos(System.String, System.String) on controller API_ProyectoPracticas.Controllers.AlumnosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 102.5017ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[API_ProyectoPracticas.Models.Alumnos, API_ProyectoPracticas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) in 991.4612ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1014.9877ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Alumnos/Alumno/ApeAlum  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetConNombreApellidos", controller = "Alumnos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetConNombreApellidos(System.String, System.String) on controller API_ProyectoPracticas.Controllers.AlumnosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 24.249ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[API_ProyectoPracticas.Models.Alumnos, API_ProyectoPracticas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) in 847.5713ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 875.59ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Alumnos/Alumno/ApeAlum  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetConNombreApellidos", controller = "Alumnos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetConNombreApellidos(System.String, System.String) on controller API_ProyectoPracticas.Controllers.AlumnosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 28.8576ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[API_ProyectoPracticas.Models.Alumnos, API_ProyectoPracticas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) in 864.2527ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 893.3847ms 200 application/json; charset=utf-8

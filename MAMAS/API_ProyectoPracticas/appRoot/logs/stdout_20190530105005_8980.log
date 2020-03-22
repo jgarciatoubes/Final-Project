@@ -1,0 +1,157 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Jorge\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/2.0 GET https://localhost:44328/index.html  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 195.0719ms 200 text/html
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/2.0 GET https://localhost:44328/swagger/v1/swagger.json  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 153.9487ms 200 application/json;charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Asignaturas/LENGUA  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Asignaturas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String) on controller API_ProyectoPracticas.Controllers.AsignaturasController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 974.7184ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas) in 1168.2796ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1273.5925ms 404 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:44328/api/Asignaturas/LENGUA  0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Post", controller = "Asignaturas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller API_ProyectoPracticas.Controllers.AsignaturasController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AsignaturasController.Post (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AsignaturasController.Post (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 304.911ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'API_ProyectoPracticas.Models.Asignaturas'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AsignaturasController.Post (API_ProyectoPracticas) in 380.3067ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 407.2057ms 201 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:44328/api/Asignaturas/LENGUA  0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Post", controller = "Asignaturas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller API_ProyectoPracticas.Controllers.AsignaturasController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AsignaturasController.Post (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AsignaturasController.Post (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 38.7404ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AsignaturasController.Post (API_ProyectoPracticas) in 66.0084ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 83.5561ms 400 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Asignaturas/Literatura  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Asignaturas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String) on controller API_ProyectoPracticas.Controllers.AsignaturasController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 34.6285ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'API_ProyectoPracticas.Models.Asignaturas'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas) in 60.0059ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 93.0555ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Asignaturas/Literatura  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Asignaturas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String) on controller API_ProyectoPracticas.Controllers.AsignaturasController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 25.3133ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'API_ProyectoPracticas.Models.Asignaturas'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas) in 50.0636ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 82.1448ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Asignaturas/Literatura  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Asignaturas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String) on controller API_ProyectoPracticas.Controllers.AsignaturasController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 27.5209ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'API_ProyectoPracticas.Models.Asignaturas'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas) in 66.5324ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 87.2861ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Asignaturas/Literatura  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Asignaturas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String) on controller API_ProyectoPracticas.Controllers.AsignaturasController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 26.1378ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'API_ProyectoPracticas.Models.Asignaturas'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas) in 52.1089ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 102.0873ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Asignaturas/Literatura  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Asignaturas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String) on controller API_ProyectoPracticas.Controllers.AsignaturasController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 26.2541ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'API_ProyectoPracticas.Models.Asignaturas'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas) in 52.837ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 93.0242ms 200 application/json; charset=utf-8

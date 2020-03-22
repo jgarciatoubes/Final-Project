@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mamas.Views.AdminViews.EditarCursoPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Label Text="Numero Curso" />
+            <Picker x:Name="NumeroCursoPicker" HorizontalOptions="FillAndExpand" SelectedItem="{Binding Path=NumeroCurso}">
+                <Picker.Items>
+                    <x:String>1</x:String>
+                    <x:String>2</x:String>
+                    <x:String>3</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label Text="Letra Curso" />
+            <Picker x:Name="LetraCursoPicker" HorizontalOptions="FillAndExpand" SelectedItem="{Binding Path=LetraCurso}">
+                <Picker.Items>
+                    <x:String>A</x:String>
+                    <x:String>B</x:String>
+                    <x:String>C</x:String>
+                    <x:String>D</x:String>
+                    <x:String>E</x:String>
+                    <x:String>F</x:String>
+                </Picker.Items>
+            </Picker>
+            <Button Text="Actualizar"
+                    Command="{Binding Path=actualizarCursoCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

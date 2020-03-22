@@ -1,0 +1,75 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Jorge\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/2.0 GET https://localhost:44328/index.html  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 185.9526ms 200 text/html
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/2.0 GET https://localhost:44328/swagger/v1/swagger.json  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 127.1099ms 200 application/json;charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DELETE https://localhost:44328/api/Asignaturas/Lengua  0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Delete", controller = "Asignaturas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.String) on controller API_ProyectoPracticas.Controllers.AsignaturasController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 776.4481ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'API_ProyectoPracticas.Models.Asignaturas'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas) in 891.8166ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 971.1402ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DELETE https://localhost:44328/api/Asignaturas/Quimica  0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Delete", controller = "Asignaturas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.String) on controller API_ProyectoPracticas.Controllers.AsignaturasController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 132.646ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'API_ProyectoPracticas.Models.Asignaturas'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas) in 175.9653ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 203.0814ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DELETE https://localhost:44328/api/Asignaturas/Quimica  0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Delete", controller = "Asignaturas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.String) on controller API_ProyectoPracticas.Controllers.AsignaturasController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 29.7119ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas) in 54.8996ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 77.5928ms 404 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DELETE https://localhost:44328/api/Asignaturas/Matematicas  0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Delete", controller = "Asignaturas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.String) on controller API_ProyectoPracticas.Controllers.AsignaturasController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AsignaturasController.Delete (API_ProyectoPracticas) - Validation state: Valid

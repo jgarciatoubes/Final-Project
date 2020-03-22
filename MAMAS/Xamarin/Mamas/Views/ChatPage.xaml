@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mamas.Views.ChatPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Editor BackgroundColor="#68E1EB"
+                    IsReadOnly="True"
+                    VerticalOptions="FillAndExpand"
+                    Text="Hola
+                    
+                    
+                    
+                    hola"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Entry HorizontalOptions="FillAndExpand"/>
+                <Button Text="Enviar"/>
+            </StackLayout>
+            
+
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

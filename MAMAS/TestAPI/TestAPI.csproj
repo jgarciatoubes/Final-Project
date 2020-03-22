@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\ArrayAlumnoProfesor.cs" Link="MamasAPIRest\ArrayAlumnoProfesor.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\ArrayAlumnos.cs" Link="MamasAPIRest\ArrayAlumnos.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\ArrayAsignaturas.cs" Link="MamasAPIRest\ArrayAsignaturas.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\ArrayCursos.cs" Link="MamasAPIRest\ArrayCursos.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\ArrayEvaluaciones.cs" Link="MamasAPIRest\ArrayEvaluaciones.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\ArrayNotas.cs" Link="MamasAPIRest\ArrayNotas.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\ArrayPadres.cs" Link="MamasAPIRest\ArrayPadres.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\ArrayProfesorAsignatura.cs" Link="MamasAPIRest\ArrayProfesorAsignatura.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\ArrayProfesorCurso.cs" Link="MamasAPIRest\ArrayProfesorCurso.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\ArrayProfesores.cs" Link="MamasAPIRest\ArrayProfesores.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\ArrayUsuarios.cs" Link="MamasAPIRest\ArrayUsuarios.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\DetallesError.cs" Link="MamasAPIRest\DetallesError.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApi.cs" Link="MamasAPIRest\MamasApi.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiAlumnoProfesor.cs" Link="MamasAPIRest\MamasApiAlumnoProfesor.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiAlumnos.cs" Link="MamasAPIRest\MamasApiAlumnos.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiAsignaturas.cs" Link="MamasAPIRest\MamasApiAsignaturas.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiCursos.cs" Link="MamasAPIRest\MamasApiCursos.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiEvaluaciones.cs" Link="MamasAPIRest\MamasApiEvaluaciones.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiNotas.cs" Link="MamasAPIRest\MamasApiNotas.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiPadres.cs" Link="MamasAPIRest\MamasApiPadres.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiProfesorAsignatura.cs" Link="MamasAPIRest\MamasApiProfesorAsignatura.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiProfesorCurso.cs" Link="MamasAPIRest\MamasApiProfesorCurso.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiProfesores.cs" Link="MamasAPIRest\MamasApiProfesores.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiRestResponseArrayBase.cs" Link="MamasAPIRest\MamasApiRestResponseArrayBase.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiRestResponseBase.cs" Link="MamasAPIRest\MamasApiRestResponseBase.cs" />
+    <Compile Include="..\Xamarin\Mamas\MamasApiRest\MamasApiUsuarios.cs" Link="MamasAPIRest\MamasApiUsuarios.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\AlumnoProfesor.cs" Link="Models\AlumnoProfesor.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\Alumnos.cs" Link="Models\Alumnos.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\Asignaturas.cs" Link="Models\Asignaturas.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\Centros.cs" Link="Models\Centros.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\Chats.cs" Link="Models\Chats.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\Cursos.cs" Link="Models\Cursos.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\Evaluaciones.cs" Link="Models\Evaluaciones.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\MAMASContext.cs" Link="Models\MAMASContext.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\Mensajes.cs" Link="Models\Mensajes.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\Notas.cs" Link="Models\Notas.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\Padres.cs" Link="Models\Padres.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\Perfiles.cs" Link="Models\Perfiles.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\ProfesorAsignatura.cs" Link="Models\ProfesorAsignatura.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\ProfesorCurso.cs" Link="Models\ProfesorCurso.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\Profesores.cs" Link="Models\Profesores.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\TiposChat.cs" Link="Models\TiposChat.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\UsuarioChat.cs" Link="Models\UsuarioChat.cs" />
+    <Compile Include="..\Xamarin\Mamas\Models\Usuarios.cs" Link="Models\Usuarios.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MamasAPIRest\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="RestSharp" Version="106.6.9" />
+  </ItemGroup>
+
+</Project>

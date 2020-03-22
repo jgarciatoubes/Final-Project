@@ -1,0 +1,121 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Jorge\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/2.0 GET https://localhost:44328/index.html  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 210.6869ms 200 text/html
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/2.0 GET https://localhost:44328/swagger/v1/swagger.json  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 166.2637ms 200 application/json;charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:44328/api/Usuarios/Usuario3/Pass3/2  0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Post", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String, System.String, Int32) on controller API_ProyectoPracticas.Controllers.UsuariosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 1294.5491ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'API_ProyectoPracticas.Models.Usuarios'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas) in 1442.5116ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1540.3303ms 201 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Usuarios/Usuario3/Pass3  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String, System.String) on controller API_ProyectoPracticas.Controllers.UsuariosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 117.6421ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Castle.Proxies.UsuariosProxy'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas) in 467.5701ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 484.8123ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Usuarios/Usuario1/Pass1  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String, System.String) on controller API_ProyectoPracticas.Controllers.UsuariosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 25.5834ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Castle.Proxies.UsuariosProxy'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas) in 420.5359ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 432.576ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Usuarios/Usuario3/Pass3  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String, System.String) on controller API_ProyectoPracticas.Controllers.UsuariosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 63.9383ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Castle.Proxies.UsuariosProxy'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas) in 369.5682ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 389.8144ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:44328/api/Usuarios/Usuario4/Pass4/3  0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Post", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String, System.String, Int32) on controller API_ProyectoPracticas.Controllers.UsuariosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 61.8083ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'API_ProyectoPracticas.Models.Usuarios'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas) in 99.1155ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 118.7538ms 201 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Usuarios/Usuario4/Pass4  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(System.String, System.String) on controller API_ProyectoPracticas.Controllers.UsuariosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 37.0589ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Castle.Proxies.UsuariosProxy'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas) in 271.4977ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 299.5246ms 200 application/json; charset=utf-8

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mamas.Views.AdminViews.ModulosAdminPage">
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal"
+                         VerticalOptions="FillAndExpand"
+                         >
+                <StackLayout Orientation="Vertical"
+                         HorizontalOptions="FillAndExpand"
+                         WidthRequest="190">
+
+                    <Button Text="Configuracion Asignaturas"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        CornerRadius="50"
+                        Margin="10, 10, 10, 0"
+                        BackgroundColor="GreenYellow" 
+                        BorderColor="#6DFF00" 
+                        BorderWidth="5"
+                        Command="{Binding Path=confAsignaturasCommand}"
+                    />
+
+                    <Button Text="Configuracion de Cursos"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        CornerRadius="50"
+                        Margin="10"
+                        BackgroundColor="#34CA34" BorderColor="#049B22" BorderWidth="5"
+                        Command="{Binding Path=confCursosCommand}"
+                    />
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical"
+                         HorizontalOptions="FillAndExpand"
+                         WidthRequest="190">
+                    <Button Text="Configuracion de Profesores"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        CornerRadius="50"
+                        Margin="0,10,10,10"
+                        BackgroundColor="#A1D7F6" BorderColor="#74BEF4" BorderWidth="5"
+                        Command="{Binding Path=confProfesoresCommand}"
+                    />
+
+                    <Button Text="Configuracion de Padres"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        CornerRadius="50"
+                        Margin="0,0,10,10"
+                        BackgroundColor="#73B2F6" BorderColor="#5D94F6" BorderWidth="5"
+                        Command="{Binding Path=confPadresCommand}"
+                    />
+
+                    <Button Text="Configuracion de Alumnos"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        CornerRadius="50"
+                        Margin="0,0,10,10"
+                        BackgroundColor="#3688E0" BorderColor="#1262F2" BorderWidth="5"
+                        Command="{Binding Path=confAlumnosCommand}"
+                    />
+                </StackLayout>
+            </StackLayout>
+            <Button Text="Eliminar datos"
+                    HeightRequest="70"
+                    CornerRadius="100"
+                    BackgroundColor="red"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    BorderColor="#9F1107" 
+                    BorderWidth="5"
+                    Margin="10,0,10,10"
+                    Command="{Binding Path=navegarEliminarCommand}"
+                    />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

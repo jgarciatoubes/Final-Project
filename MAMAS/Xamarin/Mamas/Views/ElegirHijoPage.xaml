@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mamas.Views.ElegirHijoPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Elegir Alumno"/>
+            <Picker x:Name="AlumnosPicker" 
+                            HorizontalOptions="FillAndExpand" 
+                            ItemsSource="{Binding Path=ListaAlumnos}"
+                            SelectedItem="{Binding Path=AlumnoSeleccionado}"/>
+            <Button Text="Siguiente"
+                    Command="{Binding Path=navegarModulosCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

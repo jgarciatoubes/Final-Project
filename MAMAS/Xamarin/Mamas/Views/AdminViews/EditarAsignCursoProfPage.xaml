@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mamas.Views.AdminViews.EditarAsignCursoProfPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Añadir Cursos"/>
+            <Picker x:Name="CursosPicker" 
+                            HorizontalOptions="FillAndExpand" 
+                            ItemsSource="{Binding Path=ListaCursos}"
+                            SelectedItem="{Binding Path=CursoSeleccionado}"/>
+            <Label Text="Añadir Asignaturas"/>
+            <Picker x:Name="AsignaturasPicker" 
+                            HorizontalOptions="FillAndExpand" 
+                            ItemsSource="{Binding Path=ListaAsignaturas}"
+                            SelectedItem="{Binding Path=AsignaturaSeleccionada}"/>
+            <Button Text="Añadir"
+                    Command="{Binding Path=insertarAsignCursoProfCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

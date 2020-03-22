@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mamas.Views.AdminViews.ConfPadresPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Label Text="Nombre" />
+            <Entry x:Name="nombrePadre" 
+                   Placeholder="Nombre del Padre"
+                   Text="{Binding Path=NombrePadre}"/>
+            <Label Text="Apellidos" />
+            <Entry x:Name="apellidosPadre" 
+                   Placeholder="Apellidos del Padre"
+                   Text="{Binding Path=ApellidosPadre}"/>
+            <Label Text="Direccion" />
+            <Entry x:Name="direccionPadre" 
+                   Placeholder="Direccion del Padre"
+                   Text="{Binding Path=DireccionPadre}"/>
+            <Label Text="Telefono" />
+            <Entry x:Name="telefonoPadre" 
+                   Placeholder="Telefono del Padre"
+                   Text="{Binding Path=TelefonoPadre}"/>
+            <Button Text="Añadir"
+                    Command="{Binding Path=insertarPadreCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

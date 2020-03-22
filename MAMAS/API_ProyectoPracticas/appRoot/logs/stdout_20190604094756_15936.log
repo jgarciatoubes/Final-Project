@@ -1,0 +1,157 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Jorge\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/2.0 GET https://localhost:44328/index.html  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 222.8121ms 200 text/html
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/2.0 GET https://localhost:44328/swagger/v1/swagger.json  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 111.0919ms 200 application/json;charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Alumnos/Alumno/ApeAlumno  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetConNombreApellidos", controller = "Alumnos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetConNombreApellidos(System.String, System.String) on controller API_ProyectoPracticas.Controllers.AlumnosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1100.756ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[API_ProyectoPracticas.Models.Alumnos, API_ProyectoPracticas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) in 1505.9202ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1601.6269ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Alumnos/Alumno/ApeAlum  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetConNombreApellidos", controller = "Alumnos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetConNombreApellidos(System.String, System.String) on controller API_ProyectoPracticas.Controllers.AlumnosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.6462ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[API_ProyectoPracticas.Models.Alumnos, API_ProyectoPracticas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) in 971.7814ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1000.5132ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Alumnos/Alumno/ApeAlum  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetConNombreApellidos", controller = "Alumnos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetConNombreApellidos(System.String, System.String) on controller API_ProyectoPracticas.Controllers.AlumnosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.5032ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[API_ProyectoPracticas.Models.Alumnos, API_ProyectoPracticas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas) in 821.8024ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.GetConNombreApellidos (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 847.0824ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Alumnos/1  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Alumnos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller API_ProyectoPracticas.Controllers.AlumnosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AlumnosController.Get (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AlumnosController.Get (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 60.4409ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Castle.Proxies.AlumnosProxy'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AlumnosController.Get (API_ProyectoPracticas) in 705.9682ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 739.9035ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:44328/api/Alumnos/1  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Alumnos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller API_ProyectoPracticas.Controllers.AlumnosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AlumnosController.Get (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.AlumnosController.Get (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23.5501ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Castle.Proxies.AlumnosProxy'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.AlumnosController.Get (API_ProyectoPracticas) in 840.2443ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.Get (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 859.9984ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:44328/api/Usuarios/Usuario4/Pass4/1  0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Post", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String, System.String, Int32) on controller API_ProyectoPracticas.Controllers.UsuariosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 46.8611ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas) in 81.0645ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 116.5222ms 400 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:44328/api/Usuarios/Usuario5/Pass4/1  0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Post", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String, System.String, Int32) on controller API_ProyectoPracticas.Controllers.UsuariosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21.878ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas) in 50.1002ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 66.2612ms 400 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:44328/api/Usuarios/Usuario6/Pass6/1  0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Post", controller = "Usuarios"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String, System.String, Int32) on controller API_ProyectoPracticas.Controllers.UsuariosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 97.0554ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'API_ProyectoPracticas.Models.Usuarios'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas) in 160.1786ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'API_ProyectoPracticas.Controllers.UsuariosController.Post (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 181.9254ms 201 application/json; charset=utf-8

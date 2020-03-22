@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mamas.Views.AdminViews.ConfProfesoresPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Label Text="Nombre" />
+            <Entry x:Name="nombreProfesor" 
+                   Placeholder="Nombre del Profesor"
+                   Text="{Binding Path=NombreProfesor}"/>
+            <Label Text="Apellidos" />
+            <Entry x:Name="apellidosProfesor" 
+                   Placeholder="Apellidos del Profesor"
+                   Text="{Binding Path=ApellidosProfesor}"/>
+            
+            <Button Text="Insertar y añadir cursos y asignaturas"
+                    HorizontalOptions="Center"
+                    WidthRequest="300"
+                    HeightRequest="100"
+                    CornerRadius="100"
+                    BackgroundColor="#7AC1FF"
+                    Command="{Binding Path=insertarProfesorCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

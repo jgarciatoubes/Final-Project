@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mamas.Views.MenuChatPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Chat en Grupo"
+                    FontSize="40"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    CornerRadius="50"
+                    Margin="10, 10, 10, 0"
+                    BackgroundColor="Aqua"
+                    Command="{Binding Path=navegarChatGrupalCommand}"
+                    />
+
+            <Button Text="Chat Privado"
+                    FontSize="40"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    CornerRadius="50"
+                    Margin="10"
+                    BackgroundColor="GreenYellow"
+                    Command="{Binding Path=navegarChatIndividualCommand}"
+                    />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

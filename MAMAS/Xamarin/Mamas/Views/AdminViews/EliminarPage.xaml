@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mamas.Views.AdminViews.EliminarPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Elige alumno" VerticalOptions="EndAndExpand"/>
+            <StackLayout  Orientation="Horizontal">
+                <Picker x:Name="AlumnoPicker" 
+                            HorizontalOptions="FillAndExpand" 
+                            ItemsSource="{Binding Path=ListaAlumnos}"
+                            SelectedItem="{Binding Path=AlumnoSeleccionado}"/>
+                <StackLayout Orientation="Vertical">
+                    <Button Text="Eliminar"
+                            FontSize="20"
+                            HeightRequest="30"
+                            WidthRequest="150"
+                            Margin="10,0,20,0"                           
+                            Padding="0,0,0,2"
+                            CornerRadius="40"
+                            BackgroundColor="#FF0000"
+                            Command="{Binding Path=eliminarAlumnoCommand}"/>
+                    <Button Text="Editar"
+                            FontSize="20"
+                            HeightRequest="30"
+                            WidthRequest="150"
+                            Margin="10,10,20,0"                           
+                            Padding="0,0,0,2"
+                            CornerRadius="40"
+                            BackgroundColor="#EAA339"
+                            Command="{Binding Path=editarAlumnoCommand}"/>
+                </StackLayout>
+
+            </StackLayout>
+            <Label Text="Elige padre" VerticalOptions="EndAndExpand"/>
+            <StackLayout Orientation="Horizontal">
+                <Picker x:Name="PadrePicker" 
+                            HorizontalOptions="FillAndExpand" 
+                            ItemsSource="{Binding Path=ListaPadres}"
+                            SelectedItem="{Binding Path=PadreSeleccionado}"/>
+                <StackLayout Orientation="Vertical">
+                    <Button Text="Eliminar"
+                            FontSize="20"
+                            HeightRequest="30"
+                            WidthRequest="150"
+                            Margin="10,0,20,0"                           
+                            Padding="0,0,0,2"
+                            CornerRadius="40"
+                            BackgroundColor="#FF0000"
+                            Command="{Binding Path=eliminarPadreCommand}"/>
+                    <Button Text="Editar"
+                            FontSize="20"
+                            HeightRequest="30"
+                            WidthRequest="150"
+                            Margin="10,10,20,0"                           
+                            Padding="0,0,0,2"
+                            CornerRadius="40"
+                            BackgroundColor="#EAA339"
+                            Command="{Binding Path=editarPadreCommand}"/>
+            </StackLayout>
+        </StackLayout>
+            <Label Text="Elige profesor" VerticalOptions="EndAndExpand"/>
+            <StackLayout Orientation="Horizontal">
+                <Picker x:Name="ProfesorPicker" 
+                            HorizontalOptions="FillAndExpand" 
+                            ItemsSource="{Binding Path=ListaProfesores}"
+                            SelectedItem="{Binding Path=ProfesorSeleccionado}"/>
+                <StackLayout Orientation="Vertical">
+                    <Button Text="Eliminar"
+                            FontSize="20"
+                            HeightRequest="30"
+                            WidthRequest="150"
+                            Margin="10,0,20,0"                           
+                            Padding="0,0,0,2"
+                            CornerRadius="40"
+                            BackgroundColor="#FF0000"
+                            Command="{Binding Path=eliminarProfesorCommand}"/>
+                    <Button Text="Editar"
+                            FontSize="20"
+                            HeightRequest="30"
+                            WidthRequest="150"
+                            Margin="10,10,20,0"                           
+                            Padding="0,0,0,2"
+                            CornerRadius="40"
+                            BackgroundColor="#EAA339"
+                            Command="{Binding Path=editarProfesorCommand}"/>
+            </StackLayout>
+        </StackLayout>
+            <Label Text="Elige asignatura" VerticalOptions="EndAndExpand"/>
+            <StackLayout Orientation="Horizontal">
+                <Picker x:Name="AsignaturaPicker" 
+                            HorizontalOptions="FillAndExpand" 
+                            ItemsSource="{Binding Path=ListaAsignaturas}"
+                            SelectedItem="{Binding Path=AsignaturaSeleccionada}"/>
+                <StackLayout Orientation="Vertical">
+                    <Button Text="Eliminar"
+                            FontSize="20"
+                            HeightRequest="30"
+                            WidthRequest="150"
+                            Margin="10,0,20,0"                           
+                            Padding="0,0,0,2"
+                            CornerRadius="40"
+                            BackgroundColor="#FF0000"
+                            Command="{Binding Path=eliminarAsignaturaCommand}"/>
+                    <Button Text="Editar"
+                            FontSize="20"
+                            HeightRequest="30"
+                            WidthRequest="150"
+                            Margin="10,10,20,0"                           
+                            Padding="0,0,0,2"
+                            CornerRadius="40"
+                            BackgroundColor="#EAA339"
+                            Command="{Binding Path=editarAsignaturaCommand}"/>
+            </StackLayout>
+        </StackLayout>
+            <Label Text="Elige curso" VerticalOptions="EndAndExpand"/>
+            <StackLayout Orientation="Horizontal" VerticalOptions="StartAndExpand">
+                <Picker x:Name="CursoPicker" 
+                            HorizontalOptions="FillAndExpand" 
+                            ItemsSource="{Binding Path=ListaCursos}"
+                            SelectedItem="{Binding Path=CursoSeleccionado}"/>
+                <StackLayout Orientation="Vertical">
+                    <Button Text="Eliminar"
+                            FontSize="20"
+                            HeightRequest="30"
+                            WidthRequest="150"
+                            Margin="10,10,20,0"                           
+                            Padding="0,0,0,2"
+                            CornerRadius="40"
+                            BackgroundColor="#FF0000"
+                            Command="{Binding Path=eliminarCursoCommand}"/>
+                    <Button Text="Editar"
+                            FontSize="20"
+                            HeightRequest="30"
+                            WidthRequest="150"
+                            Margin="10,10,20,0"                           
+                            Padding="0,0,0,2"
+                            CornerRadius="40"
+                            BackgroundColor="#EAA339"
+                            Command="{Binding Path=editarCursoCommand}"/>
+            </StackLayout>
+        </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

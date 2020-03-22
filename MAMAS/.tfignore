@@ -1,0 +1,68 @@
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+bin
+obj
+BuildLog\
+
+#include nuget executable
+!NuGet.exe
+
+# ReSharper
+_ReSharper*/
+*.ReSharper
+
+# TeamCity
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.Publish.xml
+*.pubxml
+
+# Backup & report files from converting an old project file to a newer
+_UpgradeReport_Files/
+Backup*
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Ignore NuGet Packages
+*.nupkg
+
+# Ignore the NuGet packages folder in the root of the repository. If needed, prefix 'packages'
+# with additional folder names if it's not in the same folder as .tfignore.   
+packages
+
+# Exclude package target files which may be required for MSBuild, again prefixing the folder name as needed.
+!packages/*.targets
+
+# Omit temporary files
+project.lock.json
+project.assets.json
+*.nuget.props
+
+# Ignore VS IDE User Configuration
+.vs
+.vscode
+
+#graficos
+graficos
+
+# firmas
+InFirma.pfx

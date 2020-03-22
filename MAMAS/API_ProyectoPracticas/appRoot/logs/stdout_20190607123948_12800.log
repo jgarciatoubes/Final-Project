@@ -1,0 +1,33 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Jorge\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: C:\Users\Jorge\Source\Workspaces\DMGProyectos\MAMAS\API_ProyectoPracticas
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/2.0 GET https://localhost:44328/index.html  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 198.0504ms 200 text/html
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/2.0 GET https://localhost:44328/swagger/v1/swagger.json  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 129.806ms 200 application/json;charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 PUT https://localhost:44328/api/Alumnos/2/Juan/Fern ndez/07/06/2019 14:40:33/1  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 61.0857ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 PUT https://localhost:44328/api/Alumnos/2/Juan/Fern ndez/07/06/2019 14:41:21/1  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 13.5514ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 PUT https://localhost:44328/api/Alumnos/2/Juan/Fern ndez/07/06/2019 14:42:49/1  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 24.9765ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 PUT https://localhost:44328/api/Alumnos/2/Juan/Fern ndez/07-06-2019/1  0
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'API_ProyectoPracticas.Controllers.AlumnosController.Put (API_ProyectoPracticas)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Put", controller = "Alumnos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Put(Int32, System.String, System.String, System.DateTime, Int32) on controller API_ProyectoPracticas.Controllers.AlumnosController (API_ProyectoPracticas).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method API_ProyectoPracticas.Controllers.AlumnosController.Put (API_ProyectoPracticas) - Validation state: Valid

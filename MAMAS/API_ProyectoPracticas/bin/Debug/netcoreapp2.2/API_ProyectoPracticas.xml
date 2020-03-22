@@ -1,0 +1,544 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API_ProyectoPracticas</name>
+    </assembly>
+    <members>
+        <member name="M:API_ProyectoPracticas.Controllers.AlumnosController.Get">
+            <summary>
+            Devuelve los datos de todos los alumnos
+            </summary> 
+            <returns>El JSON de todos los alumnos</returns>
+            <response code="200">Si existen alumnos</response>
+            <response code="404">Si no existen alumnos</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AlumnosController.GetPorPadre(System.Int32)">
+            <summary>
+            Devuelve los alumnos de un mismo padre
+            </summary> 
+            <param name="idPadre"> El identificador del padre</param>
+            <returns>El JSON de los alumnos</returns>
+            <response code="200">Si el padre existe y tiene alumnos hijos</response>
+            <response code="404">Si el padre no existe</response>
+            <response code="400">Si no tiene alumnos hijos</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AlumnosController.GetAlumno(System.Int32)">
+            <summary>
+            Busca un Alumno
+            </summary>       
+            <param name="idAlumno"> El id del alumno</param>
+            <param name="aux"> Parámetro auxiliar</param>
+            <returns>El JSON del alumno</returns>
+            <response code="200">Si el alumno existe</response>
+            <response code="404">Si el alumno no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AlumnosController.Post(System.String,System.String,System.DateTime,System.Int32)">
+            <summary>
+            Crea un alumno
+            </summary> 
+            <param name="nombreAlumno"> El nombre del alumno</param>
+            <param name="apellidosAlumno"> Los apellidos del alumno</param>
+            <param name="fechaNacimiento"> La fecha de nacimiento del alumno</param>
+            <param name="idPadre"> El identificador del padre del alumno</param>
+            <returns>El JSON del alumno</returns>
+            <response code="201">Si el alumno ha sido creado</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AlumnosController.Delete(System.Int32)">
+            <summary>
+            Borra un alumno
+            </summary>
+            <param name="idAlumno"> El identificador del alumno</param>
+            <returns>El JSON del alumno borrado</returns>
+            <response code="200">Si el item ha sido borrado</response>
+            <response code="404">Si el item no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AlumnosController.Put(System.Int32,System.String,System.String,System.DateTime,System.Int32)">
+            <summary>
+            Modifica un alumno
+            </summary> 
+            <param name="idAlumno"> El identificador del alumno</param>
+            <param name="nombreAlumno"> El nombre del alumno</param>
+            <param name="apellidosAlumno"> Los apellidos del alumno</param>
+            <param name="fechaNacimiento"> La fecha de nacimiento del alumno</param>
+            <param name="idPadre"> El identificador del padre del alumno</param>
+            <returns>El JSON del alumno</returns>
+            <response code="200">Si el alumno ha sido modificado</response>
+            <response code="404">Si no existe un alumno con ese identificador</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AlumnoProfesorController.Get(System.Int32)">
+            <summary>
+            Devuelve los datos las relaciónes AlumnoProfesor a partir de su id de Profesor
+            </summary> 
+            <param name="idProfesor"> El id del Profesor</param>
+            <returns>El JSON de la Relacion</returns>
+            <response code="200">Si existen relaciones</response>
+            <response code="404">Si no existen relaciones</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AlumnoProfesorController.Post(System.Int32,System.Int32)">
+            <summary>
+            Crea una relacion AlumnoProfesor
+            </summary> 
+            <param name="idAlumno"> El identificador del alumno</param>
+            <param name="idProfesor"> El identificador del profesor</param>
+            <returns>El JSON de la relacion AlumnoProfesor</returns>
+            <response code="201">Si la relacion ha sido creada</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AlumnoProfesorController.Delete(System.Int32)">
+            <summary>
+            Borra una o más relaciones AlumnoProfesor
+            </summary> 
+            <param name="idAlumno"> El identificador del alumno</param>
+            <returns>El JSON de las relaciones AlumnoProfesor</returns>
+            <response code="201">Si las relaciones del Alumno han sido borradas</response>
+            <response code="404">Si el alumno no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AsignaturasController.Get">
+            <summary>
+            Devuelve los datos de todas las asignaturas
+            </summary> 
+            <returns>El JSON de todas las asignaturas</returns>
+            <response code="200">Si existen asignaturas</response>
+            <response code="404">Si no existen asignaturas</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AsignaturasController.Get(System.String)">
+            <summary>
+            Busca una asignatura
+            </summary>       
+            <param name="nombreAsignatura"> El nombre de la asignatura</param>
+            <returns>El JSON de la Asignatura</returns>
+            <response code="200">Si el item existe</response>
+            <response code="404">Si el item no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AsignaturasController.Get(System.Int32)">
+            <summary>
+            Busca una asignatura
+            </summary>       
+            <param name="idAsignatura"> El id de la asignatura</param>
+            <returns>El JSON de la Asignatura</returns>
+            <response code="200">Si el item existe</response>
+            <response code="404">Si el item no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AsignaturasController.Post(System.String)">
+            <summary>
+            Inserta una asignatura
+            </summary>
+            <param name="nombreAsignatura"> El nombre de la asignatura</param>
+            <returns>El JSON de la nueva Asignatura creada</returns>
+            <response code="201">Si el item ha sido creado</response>
+            <response code="400">Si el item ya existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AsignaturasController.Delete(System.String)">
+            <summary>
+            Borra una asignatura
+            </summary>
+            <param name="nombreAsignatura"> El nombre de la asignatura</param>
+            <returns>El JSON de la Asignatura borrada</returns>
+            <response code="200">Si el item ha sido borrado</response>
+            <response code="404">Si el item no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.AsignaturasController.Put(System.Int32,System.String)">
+            <summary>
+            Modifica una asignatura
+            </summary>
+            <param name="idAsignatura"> El identificador de la asignatura</param>
+            <param name="nombreAsignatura"> El nuevo nombre de la asignatura</param>
+            <returns>El JSON de la Asignatura modificada</returns>
+            <response code="200">Si la asignatura ha sido modificada</response>
+            <response code="400">Si ya existe una asignatura con ese nombre</response>
+            <response code="404">Si ya asignatura no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.CursosController.Get">
+            <summary>
+            Devuelve los datos de todos los cursos
+            </summary> 
+            <returns>El JSON de todos los cursos</returns>
+            <response code="200">Si existen cursos</response>
+            <response code="404">Si no existen cursos</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.CursosController.Get(System.Int32)">
+            <summary>
+            Busca un curso
+            </summary>       
+            <param name="idCurso"> El id del curso</param>
+            <returns>El JSON del curso</returns>
+            <response code="200">Si el curso existe</response>
+            <response code="404">Si el curso no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.CursosController.Get(System.Int32,System.String)">
+            <summary>
+            Busca un curso
+            </summary>       
+            <param name="numeroCurso"> El número del curso</param>
+            <param name="letraCurso"> La letra del curso</param>
+            <returns>El JSON del curso</returns>
+            <response code="200">Si el curso existe</response>
+            <response code="404">Si el curso no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.CursosController.Post(System.Int32,System.String)">
+            <summary>
+            Crea un curso
+            </summary>       
+            <param name="numeroCurso"> El número del curso</param>
+            <param name="letraCurso"> La letra del curso</param>
+            <returns>El JSON del curso</returns>
+            <response code="201">Si el curso ha sido creado</response>
+            <response code="400">Si el curso ya existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.CursosController.Delete(System.Int32,System.String)">
+            <summary>
+            Borra un curso
+            </summary>       
+            <param name="numeroCurso"> El número del curso</param>
+            <param name="letraCurso"> La letra del curso</param>
+            <returns>El JSON del curso eliminado</returns>
+            <response code="200">Si el curso ha sido eliminado</response>
+            <response code="404">Si el curso no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.CursosController.Put(System.Int32,System.Int32,System.String)">
+            <summary>
+            Modifica un curso
+            </summary>       
+            <param name="idCurso"> El identificador del curso</param>
+            <param name="numeroCurso"> El número del curso</param>
+            <param name="letraCurso"> La letra del curso</param>
+            <returns>El JSON del curso modificado</returns>
+            <response code="200">Si el curso ha sido modificado</response>
+            <response code="400">Si ya existe un curso con ese numero y letra</response>
+            <response code="404">Si no existe un curso con ese identificador</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.EvaluacionesController.Get">
+            <summary>
+            Devuelve todas las Evaluaciones
+            </summary>       
+            <returns>El JSON de las Evaluaciones</returns>
+            <response code="200">Si hay Evaluaciones</response>
+            <response code="404">Si no hay Evaluaciones en la base de datos</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.EvaluacionesController.Get(System.String)">
+            <summary>
+            Busca una Evaluacion
+            </summary>       
+            <param name="nombreEvaluacion"> El nombre de la Evaluacion</param>
+            <returns>El JSON de la Evaluacion</returns>
+            <response code="200">Si el item existe</response>
+            <response code="404">Si el item no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.EvaluacionesController.Get(System.Int32)">
+            <summary>
+            Busca una Evaluacion
+            </summary>       
+            <param name="idEvaluacion"> El id de la Evaluacion</param>
+            <param name="aux"> Parámetro auxiliar</param>
+            <returns>El JSON de la Evaluacion</returns>
+            <response code="200">Si el item existe</response>
+            <response code="404">Si el item no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.EvaluacionesController.Post(System.String)">
+            <summary>
+            Inserta una Evaluacion
+            </summary>
+            <param name="nombreEvaluacion"> El nombre de la Evaluacion</param>
+            <returns>El JSON de la nueva Evaluacion creada</returns>
+            <response code="201">Si el item ha sido creado</response>
+            <response code="400">Si el item ya existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.EvaluacionesController.Delete(System.String)">
+            <summary>
+            Borra una Evaluacion
+            </summary>
+            <param name="nombreEvaluacion"> El nombre de la Evaluacion</param>
+            <returns>El JSON de la Evaluacion borrada</returns>
+            <response code="200">Si el item ha sido borrado</response>
+            <response code="404">Si el item no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.EvaluacionesController.Put(System.Int32,System.String)">
+            <summary>
+            Modifica una evaluación
+            </summary>       
+            <param name="idEvaluacion"> El identificador de la evaluación</param>
+            <param name="nombreEvaluacion"> El nombre de la evaluación</param>
+            <returns>El JSON de la evaluación modificada</returns>
+            <response code="200">Si la evaluación ha sido modificado</response>
+            <response code="400">Si ya existe una evaluación con ese nombre</response>
+            <response code="404">Si no existe una evaluación con ese nombre</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.NotasController.Get(System.Int32)">
+            <summary>
+            Devuelve las Notas de un alumno
+            </summary> 
+            <param name="idAlumno"> El identificador del padre del alumno</param>
+            <returns>El JSON de las Notas de un alumno</returns>
+            <response code="200">Si existe el alumno y tiene Notas</response>
+            <response code="404">Si no existe el alumno</response>
+            <response code="400">Si no tiene Notas</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.NotasController.Get(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Devuelve una Nota a partir de sus valores
+            </summary> 
+            <param name="notaValor"> El valor de la nota</param>
+            <param name="idAsignatura"> El identificador de la asignatura</param>
+            <param name="idEvaluacion"> El identificador de la evaluación</param>
+            <param name="idCurso"> El identificador del curso</param>
+            <param name="idAlumno"> El identificador del alumno</param>
+            <returns>El JSON de la nota</returns>
+            <response code="201">Si la nota ha existe</response>
+            <response code="404">Si no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.NotasController.Post(System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Crea una Nota
+            </summary> 
+            <param name="notaValor"> El valor de la nota</param>
+            <param name="idAsignatura"> El identificador de la asignatura</param>
+            <param name="idEvaluacion"> El identificador de la evaluación</param>
+            <param name="idCurso"> El identificador del curso</param>
+            <param name="idAlumno"> El identificador del alumno</param>
+            <returns>El JSON de las nota creada</returns>
+            <response code="201">Si la nota ha sido creado</response>
+            <response code="400">Si ya existe una nota con los mismos identificadores</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.NotasController.Delete(System.Int32)">
+            <summary>
+            Borra una nota
+            </summary>
+            <param name="idNota"> El identificador de la nota</param>
+            <returns>El JSON de la nota borrado</returns>
+            <response code="200">Si el item ha sido borrado</response>
+            <response code="404">Si el item no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.NotasController.Put(System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Modifica una nota
+            </summary>       
+            <param name="idNota"> El identificador de la nota</param>
+            <param name="notaValor"> El valor de la nota</param>
+            <param name="idAsignatura"> El identificador de la asignatura</param>
+            <param name="idEvaluacion"> El identificador de la evaluación</param>
+            <param name="idCurso"> El identificador del curso</param>
+            <param name="idAlumno"> El identificador del alumno</param>
+            <response code="200">Si la nota ha sido modificado</response>
+            <response code="400">Si ya existe una nota con el mismo notaValor, idAsignatura, idEvaluacion, idCurso e idAlumno</response>
+            <response code="404">Si no existe una nota con ese identificador</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.PadresController.Get">
+            <summary>
+            Devuelve todos los Padres
+            </summary>       
+            <returns>El JSON de los Padres</returns>
+            <response code="200">Si hay Padres</response>
+            <response code="404">Si no hay Padres en la base de datos</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.PadresController.Get(System.Int32)">
+            <summary>
+            Devuelve los datos de un padre a partir de su identificador
+            </summary> 
+            <param name="idPadre"> El identificador del padre</param>
+            <returns>El JSON del padre</returns>
+            <response code="200">Si el padre existe</response>
+            <response code="404">Si el padre no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.PadresController.GetPadrePorUsu(System.Int32)">
+            <summary>
+            Devuelve los datos de un padre a partir de su identificador de usuario
+            </summary> 
+            <param name="idUsuario"> El identificador de usuario del padre </param>
+            <param name="aux"> parametro auxiliar </param>
+            <returns>El JSON del padre</returns>
+            <response code="200">Si el padre existe</response>
+            <response code="404">Si el padre no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.PadresController.Post(System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            Crea un Padre
+            </summary> 
+            <param name="idUsuario"> El identificador del padre/madre</param>
+            <param name="nombrePadre"> El nombre del padre/madre</param>
+            <param name="apellidosPadre"> Los apellidos del padre/madre</param>
+            <param name="direccionPadre"> La direccion del padre/madre</param>
+            <param name="telefonoPadre"> El numero de telefono del padre/madre</param>
+            <returns>El JSON del padre/madre</returns>
+            <response code="200">Si existe al menos un padre/madre con ese nombre y apellidos</response>
+            <response code="404">Si el padre/madre no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.PadresController.Delete(System.Int32)">
+            <summary>
+            Borra un Padre
+            </summary> 
+            <param name="idPadre"> El identificador del padre/madre</param>
+            <returns>El JSON del padre/madre borrado</returns>
+            <response code="200">Si el padre/madre ha sido borrado</response>
+            <response code="404">Si el padre/madre no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.PadresController.Put(System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            Modifica un padre
+            </summary>       
+            <param name="idPadre"> El identificador del padre/madre</param>
+            <param name="nombrePadre"> El nombre del padre/madre</param>
+            <param name="apellidosPadre"> Los apellidos del padre/madre</param>
+            <param name="direccionPadre"> La direccion del padre/madre</param>
+            <param name="telefonoPadre"> El numero de telefono del padre/madre</param>
+            <returns>El JSON del padre/madre modificado</returns>
+            <response code="200">Si el padre/madre ha sido modificado</response>
+            <response code="404">Si no existe un padre/madre con ese identificador</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.ProfesorAsignaturaController.Post(System.Int32,System.Int32)">
+            <summary>
+            Crea una relacion ProfesorAsignatura
+            </summary> 
+            <param name="idProfesor"> El identificador del profesor</param>
+            <param name="idAsignatura"> El identificador de la asignatura</param>
+            <returns>El JSON de la relacion ProfesorAsignatura</returns>
+            <response code="201">Si la relacion ha sido creada</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.ProfesorAsignaturaController.Delete(System.Int32)">
+            <summary>
+            Borra una o más relaciones ProfesorAsignatura
+            </summary> 
+            <param name="idProfesor"> El identificador del Profesor</param>
+            <returns>El JSON de las relaciones ProfesorAsignatura</returns>
+            <response code="201">Si las relaciones del Profesor han sido borradas</response>
+            <response code="404">Si el Profesor no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.ProfesorCursoController.Post(System.Int32,System.Int32)">
+            <summary>
+            Crea una relacion ProfesorCurso
+            </summary> 
+            <param name="idProfesor"> El identificador del profesor</param>
+            <param name="idCurso"> El identificador del curso</param>
+            <returns>El JSON de la relacion ProfesorCurso</returns>
+            <response code="201">Si la relacion ha sido creada</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.ProfesorCursoController.Delete(System.Int32)">
+            <summary>
+            Borra una o más relaciones ProfesorCurso
+            </summary> 
+            <param name="idProfesor"> El identificador del Profesor</param>
+            <returns>El JSON de las relaciones ProfesorCurso</returns>
+            <response code="201">Si las relaciones del Profesor han sido borradas</response>
+            <response code="404">Si el Profesor no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.ProfesoresController.Get">
+            <summary>
+            Devuelve los datos de todos los Profesores
+            </summary> 
+            <returns>El JSON de todos los Profesores</returns>
+            <response code="200">Si existen Profesores</response>
+            <response code="404">Si no existen Profesores</response>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:API_ProyectoPracticas.Controllers.ProfesoresController.Get(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:API_ProyectoPracticas.Controllers.ProfesoresController.Get(System.Int32,System.String)" -->
+        <member name="M:API_ProyectoPracticas.Controllers.ProfesoresController.Post(System.String,System.String,System.Int32)">
+            <summary>
+            Crea un Profesor
+            </summary> 
+            <param name="nombreProfesor"> El nombre del Profesor</param>
+            <param name="apellidosProfesor"> Los apellidos del Profesor</param>
+            <param name="idUsuario"> El identificador de la cuenta de usuario</param>
+            <returns>El JSON del Profesor</returns>
+            <response code="201">Si el Profesor ha sido creado</response>
+            <response code="400">Si el Profesor ya existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.ProfesoresController.Delete(System.Int32)">
+            <summary>
+            Borra un Profesor
+            </summary>
+            <param name="idProfesor"> El identificador del Profesor</param>
+            <returns>El JSON del Profesor borrado</returns>
+            <response code="200">Si el Profesor ha sido borrado</response>
+            <response code="404">Si el Profesor no existe</response>
+            <response code="400">Si el Profesor no puede ser borrado porque tiene Alumnos asignados</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.ProfesoresController.Put(System.Int32,System.String,System.String)">
+            <summary>
+            Modifica un Profesor
+            </summary> 
+            <param name="idProfesor"> El identificador del Profesor</param>
+            <param name="nombreProfesor"> El nombre del Profesor</param>
+            <param name="apellidosProfesor"> Los apellidos del Profesor</param>
+            <returns>El JSON del Profesor modificado</returns>
+            <response code="200">Si el profesor ha sido modificado</response>
+            <response code="404">Si no existe un profesor con ese identificador</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.UsuariosController.Get">
+            <summary>
+            Devuelve los datos de todos los Usuarios
+            </summary> 
+            <returns>El JSON de todos los Usuarios</returns>
+            <response code="200">Si existen Usuarios</response>
+            <response code="404">Si no existen Usuarios</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.UsuariosController.GetConPass(System.String,System.String)">
+            <summary>
+            A partir de un nombre de usuario y una contraseña devuelve los datos del usuario
+            </summary> 
+            <param name="nombreUsuario"> El username del usuario</param>
+            <param name="passUsuario"> La password del usuario</param>
+            <returns>El JSON del usuario</returns>
+            <response code="200">Devuelve el item</response>
+            <response code="404">Si el item no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.UsuariosController.Get(System.String)">
+            <summary>
+            Devuelve los datos de un usuario a partir de su nombre de usuario
+            </summary> 
+            <param name="nombreUsuario"> El username del usuario</param>
+            <returns>El JSON del usuario</returns>
+            <response code="200">Devuelve el item</response>
+            <response code="404">Si el item no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.UsuariosController.GetMayorID">
+            <summary>
+            Devuelve el usuario con mayor ID de Usuario
+            </summary> 
+            <returns>El JSON del usuario con mayor ID</returns>
+            <response code="200">Si existe el item</response>
+            <response code="404">Si el item no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.UsuariosController.Post(System.String,System.String,System.Int32)">
+             <summary>
+             Crea un usuario
+             </summary>
+             <param name="nombreUsuario"> El nombre de usuario</param>
+            <param name="passUsuario"> La password de la cuenta de usuario</param>
+             <param name="idPerfil"> El id del tipo de perfil</param>
+             <returns>El JSON de la nueva cuenta de usuario creada</returns>
+             <response code="201">Si el item ha sido creado</response>
+             <response code="400">Si el item ya existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.UsuariosController.Delete(System.Int32)">
+            <summary>
+            Borra un usuario
+            </summary>
+            <param name="idUsuario"> El identificador de la cuenta de usuario</param>
+            <returns>El JSON del usuario borrado</returns>
+            <response code="200">Si el item ha sido borrado</response>
+            <response code="404">Si el item no existe</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.UsuariosController.Put(System.Int32,System.String,System.String,System.Int32)">
+            <summary>
+            Modifica un usuario
+            </summary>
+            <param name="idUsuario"> El identificador de usuario</param>
+            <param name="nombreUsuario"> El nombre de usuario</param>
+            <param name="passUsuario"> La password de la cuenta de usuario</param>
+            <param name="idPerfil"> El id del tipo de perfil</param>
+            <returns>El JSON de la cuenta de usuario modificada</returns>
+            <response code="200">Si el usuario ha sido modificado</response>
+            <response code="400">Si ya existe un usuario con ese nombre de usuario</response>
+            <response code="404">Si no existe un usuario con ese identificador</response>
+        </member>
+        <member name="M:API_ProyectoPracticas.Controllers.UsuariosController.Put(System.Int32,System.String,System.Int32)">
+            <summary>
+            Modifica un usuario
+            </summary>
+            <param name="idUsuario"> El identificador de usuario</param>
+            <param name="passUsuario"> La password de la cuenta de usuario</param>
+            <param name="idPerfil"> El id del tipo de perfil</param>
+            <returns>El JSON de la cuenta de usuario modificada</returns>
+            <response code="200">Si el usuario ha sido modificado</response>
+            <response code="404">Si no existe un usuario con ese identificador</response>
+        </member>
+    </members>
+</doc>

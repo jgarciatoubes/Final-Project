@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mamas.Views.AdminViews.EditarAlumnoPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Label Text="Nombre" />
+            <Entry x:Name="nombreAlumno" 
+                   Text="{Binding Path=NombreAlumno}"
+                   Placeholder="Nombre del Alumno"/>
+            <Label Text="Apellidos" />
+            <Entry x:Name="apellidosAlumno" 
+                   Text="{Binding Path=ApellidosAlumno}"
+                   Placeholder="Apellidos del Alumno"/>
+            <Label Text="Fecha de Nacimiento"/>
+            <DatePicker Date="{Binding Path=FechaNacimientoAlumno}">
+                <DatePicker.Format>dd-MM-yyyy</DatePicker.Format>
+            </DatePicker>
+
+            <Label Text="Padre del Alumno"/>
+            <Picker x:Name="padresAlumno"
+                        ItemsSource="{Binding Path=ListaPadres}"
+                        SelectedItem="{Binding Path=PadreSeleccionado}"
+                        HorizontalOptions="FillAndExpand"/>
+
+            <Button Text="Asociar profesores a este alumno"
+                    HorizontalOptions="Center"
+                    WidthRequest="300"
+                    HeightRequest="100"
+                    CornerRadius="100"
+                    BackgroundColor="#7AC1FF"
+                    Command="{Binding Path=navegarProfAlumCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

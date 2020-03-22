@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mamas.Views.PonerNotasPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Elegir Asignatura"/>
+            <Picker x:Name="AsignaturaPicker" 
+                            HorizontalOptions="FillAndExpand" 
+                            ItemsSource="{Binding Path=ListaAsignaturas}"
+                            SelectedItem="{Binding Path=AsignaturaSeleccionada}"/>
+            <Label Text="Elegir Curso"/>
+            <Picker x:Name="CursoPicker" 
+                            HorizontalOptions="FillAndExpand" 
+                            ItemsSource="{Binding Path=ListaCursos}"
+                            SelectedItem="{Binding Path=CursoSeleccionado}"/>
+            <Label Text="Elegir Evaluacion"/>
+            <Picker x:Name="EvaluacionPicker" 
+                            HorizontalOptions="FillAndExpand" 
+                            ItemsSource="{Binding Path=ListaEvaluaciones}"
+                            SelectedItem="{Binding Path=EvaluacionSeleccionada}">
+                <Picker.Items>
+                    <x:String>1</x:String>
+                    <x:String>2</x:String>
+                    <x:String>3</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label Text="Escribe la nota"/>
+            <Entry Text="{Binding Path=Nota}"/>
+            <Button Text="Añadir"
+                    Command="{Binding Path=insertarNotaCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

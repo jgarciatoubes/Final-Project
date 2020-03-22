@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "327576449206",
+    "firebase_url": "https://mamasdam2.firebaseio.com",
+    "project_id": "mamasdam2",
+    "storage_bucket": "mamasdam2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327576449206:android:e3c3f642743376bc",
+        "android_client_info": {
+          "package_name": "com.davidjorgesl.mamas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327576449206-cfi02p8078rcg5e6bdjoc3paqr0m0tgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2vnc0gHqXlVD6jxbqwc201R9_4vs1jwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327576449206-cfi02p8078rcg5e6bdjoc3paqr0m0tgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
